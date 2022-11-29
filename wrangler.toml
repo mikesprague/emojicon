@@ -1,8 +1,5 @@
 name = "emojicon"
 main = "src/index.js"
+type = "javascript"
 compatibility_date = "2022-11-28"
 usage_model = "bundled"
-env = { }
-
-[triggers]
-crons = [ ]
