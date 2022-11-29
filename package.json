@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Cloudflare Worker that takes a standard unicode emoji and returns it as an SVG for use as favicons or CSS cursors",
   "exports": "./src/index.js",
-  "main": "./src/index.js",
   "type": "module",
   "private": true,
   "author": {
