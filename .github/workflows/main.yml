@@ -6,6 +6,7 @@ on:
       - "*.md"
       - "LICENSE"
       - ".github/dependabot.yml"
+      - ".editorConfig"
     branches-ignore:
       - "dependabot/*"
 
