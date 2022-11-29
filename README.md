@@ -1,5 +1,6 @@
 # emojicon
 
-Cloudflare Worker that takes a standard unicode emoji and returns it as an SVG for use in favicons, cursors, etc.
+Cloudflare Worker that takes a standard unicode emoji and returns it as an SVG for use as favicons or CSS cursors
 
 Work and documentation in progress
+
