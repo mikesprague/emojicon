@@ -17,23 +17,23 @@ A single Unicode emoji should be passed as a path parameter to the Worker URL
 Use as the `href` attribute
 
 ```html
-<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.com/😻">
+<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.workers.dev/😻">
 ```
 
 ```html
-<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.com/🍔">
+<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.workers.dev/🍔">
 ```
 
 ```html
-<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.com/🐦">
+<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.workers.dev/🐦">
 ```
 
 ```html
-<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.com/👾">
+<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.workers.dev/👾">
 ```
 
 ```html
-<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.com/🚀">
+<link rel="icon" class="favicon" href="https://emojicon.m5ls5e.workers.dev/🚀">
 ```
 
 ### Custom Cursors (via CSS)
@@ -42,13 +42,13 @@ Use as a `url()` value of the `cursor` property
 
 ```css
 body {
-  cursor: url('https://emojicon.m5ls5e.com/😝') 15 0, auto; 
+  cursor: url('https://emojicon.m5ls5e.workers.dev/😝') 15 0, auto; 
 }
 ```
 
 ```css
 .class-name {
-  cursor: url('https://emojicon.m5ls5e.com/🙅') 15 0, auto; 
+  cursor: url('https://emojicon.m5ls5e.workers.dev/🙅') 15 0, auto; 
 }
 ```
 
