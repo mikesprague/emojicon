@@ -42,15 +42,19 @@ Use as a `url()` value of the `cursor` property
 
 ```css
 body {
-  cursor: url('https://emojicon.m5ls5e.workers.dev/😝') 15 0, auto; 
+  cursor: url('https://emojicon.m5ls5e.workers.dev/😝') 15 0, auto;
 }
 ```
 
 ```css
 .class-name {
-  cursor: url('https://emojicon.m5ls5e.workers.dev/🙅') 15 0, auto; 
+  cursor: url('https://emojicon.m5ls5e.workers.dev/🙅') 15 0, auto;
 }
 ```
+
+### Demo
+
+<https://mikesprague.github.io/emojicon/>
 
 ## Deploy Your Own
 
