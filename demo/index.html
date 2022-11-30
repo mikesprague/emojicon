@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link
+      rel="icon"
+      class="favicon"
+      href="https://emojicon.m5ls5e.workers.dev/🚀"
+    />
+    <style>
+      html,
+      body {
+        background-color: #222;
+        color: #dedede;
+        height: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+      }
+      h1,
+      h2 {
+        margin: 1rem 4rem;
+      }
+      h2 {
+        border: 2px solid #444;
+        padding: 2rem;
+      }
+      .sandwich {
+        cursor: url('https://emojicon.m5ls5e.workers.dev/🥪') 17 0, auto;
+      }
+      .pulsing-heart {
+        cursor: url('https://emojicon.m5ls5e.workers.dev/💗') 17 0, auto;
+      }
+      .clown {
+        cursor: url('https://emojicon.m5ls5e.workers.dev/🤡') 17 0, auto;
+      }
+      .ghost {
+        cursor: url('https://emojicon.m5ls5e.workers.dev/👻') 17 0, auto;
+      }
+      .pig-nose {
+        cursor: url('https://emojicon.m5ls5e.workers.dev/🐽') 17 0, auto;
+      }
+    </style>
+    <script>
+      const emojiconUrl = 'https://emojicon.m5ls5e.workers.dev';
+      const favicons = ['🚀', '🍔', '😻', '👾', '🎉'];
+      const randomNum = Math.floor(Math.random() * favicons.length) + 1;
+      const linkEl = document.querySelector("link[rel*='icon'].favicon");
+      linkEl.href = `${emojiconUrl}/${favicons[randomNum]}`;
+    </script>
+  </head>
+  <body>
+    <h1>There should be a random favicon each time this page loads</h1>
+    <h2 class="sandwich">Hover over me to change cursor to a sandwich</h2>
+    <h2 class="pulsing-heart">
+      Hover over me to change cursor to a pulsing heart
+    </h2>
+    <h2 class="clown">Hover over me to change cursor to a clown face</h2>
+    <h2 class="ghost">Hover over me to change cursor to a ghost</h2>
+    <h2 class="pig-nose">Hover over me to change cursor to a pig nose</h2>
+  </body>
+</html>
