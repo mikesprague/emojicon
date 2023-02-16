@@ -29,7 +29,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "prettier": "2.8.4",
     "prettier-eslint": "15.0.1",
-    "wrangler": "2.9.1"
+    "wrangler": "2.10.0"
   },
   "eslintConfig": {
     "env": {
