@@ -19,7 +19,7 @@
     "deploy": "wrangler publish"
   },
   "devDependencies": {
-    "@babel/core": "7.22.8",
+    "@babel/core": "7.22.9",
     "@babel/eslint-parser": "7.22.9",
     "cross-env": "7.0.3",
     "cz-conventional-changelog": "^3.3.0",
