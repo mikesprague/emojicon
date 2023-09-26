@@ -14,19 +14,23 @@
     "url": "https://github.com/mikesprague/emojicon/issues"
   },
   "homepage": "https://github.com/mikesprague/emojicon#readme",
+  "engines": {
+    "node": ">= 20.x",
+    "npm": ">= 9.x"
+  },
   "scripts": {
-    "start": "wrangler dev",
-    "deploy": "wrangler publish"
+    "start": "npx wrangler dev",
+    "deploy": "npx wrangler publish"
   },
   "devDependencies": {
     "@biomejs/biome": "1.2.2",
     "cross-env": "7.0.3",
-    "cz-conventional-changelog": "^3.3.0",
+    "cz-git": "1.7.1",
     "wrangler": "3.9.0"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-git"
     }
   }
 }
