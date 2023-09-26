@@ -19,7 +19,7 @@ async function handleRequest(request) {
   const pathParam = decodeURIComponent(url.pathname).replace('/', '');
   const emojiArray = extractEmoji(pathParam);
 
-  if (emojiArray && emojiArray.length) {
+  if (emojiArray?.length) {
     returnEmoji = cleanEmoji(emojiArray[0]);
   }
 
