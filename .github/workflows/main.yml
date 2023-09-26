@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 env:
-  NODE_VERSION: "18"
+  NODE_VERSION: "20"
   CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 
 jobs:
