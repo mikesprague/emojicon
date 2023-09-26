@@ -1,6 +1,6 @@
 {
   "name": "emojicon",
-  "version": "0.0.1",
+  "version": "1.0.0-beta.1",
   "description": "Cloudflare Worker that takes a standard unicode emoji and returns it as an SVG for use as favicons or CSS cursors",
   "exports": "./src/index.js",
   "type": "module",
@@ -19,58 +19,10 @@
     "deploy": "wrangler publish"
   },
   "devDependencies": {
-    "@babel/core": "7.23.0",
-    "@babel/eslint-parser": "7.22.15",
+    "@biomejs/biome": "1.2.2",
     "cross-env": "7.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "8.50.0",
-    "eslint-config-prettier": "9.0.0",
-    "eslint-plugin-import": "2.28.1",
-    "eslint-plugin-prettier": "5.0.0",
-    "prettier": "3.0.3",
-    "prettier-eslint": "15.0.1",
     "wrangler": "3.9.0"
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": false,
-      "commonjs": false,
-      "es6": true,
-      "node": true
-    },
-    "extends": [
-      "eslint:recommended",
-      "prettier"
-    ],
-    "plugins": [
-      "import",
-      "prettier"
-    ],
-    "parserOptions": {
-      "ecmaVersion": "latest",
-      "allowImportExportEverywhere": true,
-      "parser": "@eslint/babel-parser",
-      "ecmaFeatures": {
-        "impliedStrict": true,
-        "modules": true
-      },
-      "sourceType": "module"
-    },
-    "ignorePatterns": [
-      "**/.history/*",
-      "**/node_modules/*",
-      "**/dist/*"
-    ],
-    "rules": {
-      "import/prefer-default-export": "off",
-      "no-console": "warn"
-    }
-  },
-  "prettier": {
-    "semi": true,
-    "singleQuote": true,
-    "tabWidth": 2,
-    "trailingComma": "all"
   },
   "config": {
     "commitizen": {
