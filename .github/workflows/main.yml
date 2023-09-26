@@ -15,6 +15,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 env:
   NODE_VERSION: "20"
   CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
@@ -26,6 +30,14 @@ jobs:
     steps:
       - name: 👷 Checkout repo
         uses: actions/checkout@v4
+
+      - name: 🏗️ Setup Node.js ${{ env.NODE_VERSION }} environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          check-latest: true
+          cache: npm
+          cache-dependency-path: "**/package-lock.json"
 
       - name: 🚀 Deploy
         uses: cloudflare/wrangler-action@v3.1.1
