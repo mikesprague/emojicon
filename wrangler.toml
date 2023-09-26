@@ -1,6 +1,6 @@
 name = "emojicon"
 main = "src/index.js"
-compatibility_date = "2022-11-28"
+compatibility_date = "2023-09-04"
 usage_model = "bundled"
 env = { }
 
