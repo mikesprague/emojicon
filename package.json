@@ -23,7 +23,7 @@
     "deploy": "npx wrangler publish"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.0",
+    "@biomejs/biome": "1.9.1",
     "cross-env": "7.0.3",
     "cz-git": "1.9.4",
     "wrangler": "3.77.0"
