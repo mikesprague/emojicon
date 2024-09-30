@@ -25,7 +25,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.2",
     "cross-env": "7.0.3",
-    "cz-git": "1.9.4",
+    "cz-git": "1.10.0",
     "wrangler": "3.78.12"
   },
   "config": {
