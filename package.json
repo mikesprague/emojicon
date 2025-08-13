@@ -26,7 +26,7 @@
     "@biomejs/biome": "2.1.4",
     "cross-env": "10.0.0",
     "cz-git": "1.12.0",
-    "wrangler": "4.28.1"
+    "wrangler": "4.29.1"
   },
   "config": {
     "commitizen": {
