@@ -26,7 +26,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.15",
     "cross-env": "10.1.0",
-    "cz-git": "1.13.0",
+    "cz-git": "1.13.1",
     "wrangler": "4.90.0"
   },
   "overrides": {
