@@ -27,7 +27,7 @@
     "@biomejs/biome": "2.4.15",
     "cross-env": "10.1.0",
     "cz-git": "1.13.1",
-    "wrangler": "4.92.0"
+    "wrangler": "4.93.0"
   },
   "overrides": {
     "undici": "^7.24.4"
