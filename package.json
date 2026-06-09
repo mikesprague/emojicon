@@ -1,6 +1,6 @@
 {
   "name": "emojicon",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "Cloudflare Worker that takes a standard unicode emoji and returns it as an SVG for use as favicons or CSS cursors",
   "exports": "./src/index.js",
   "type": "module",
@@ -18,7 +18,7 @@
     "node": ">= 24.x",
     "npm": ">= 11.x"
   },
-  "packageManager": "npm@11.11.1",
+  "packageManager": "npm@11.16.0",
   "scripts": {
     "start": "npx wrangler dev",
     "deploy": "npx wrangler publish"
@@ -30,7 +30,7 @@
     "wrangler": "4.99.0"
   },
   "overrides": {
-    "undici": "^7.24.4"
+    "undici": "^8.4.1"
   },
   "config": {
     "commitizen": {
@@ -38,7 +38,7 @@
     }
   },
   "volta": {
-    "node": "25.8.1",
-    "npm": "11.11.1"
+    "node": "26.3.0",
+    "npm": "11.16.0"
   }
 }
