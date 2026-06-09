@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  NODE_VERSION: "20"
+  NODE_VERSION: ${{ vars.NODE_VERSION || '26.x' }}
   CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
 
 jobs:
