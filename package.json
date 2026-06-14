@@ -1,24 +1,19 @@
 {
   "name": "emojicon",
-  "version": "1.0.0-beta.2",
-  "description": "Cloudflare Worker that takes a standard unicode emoji and returns it as an SVG for use as favicons or CSS cursors",
-  "exports": "./src/index.js",
-  "type": "module",
+  "version": "1.0.0-beta.3",
   "private": true,
+  "description": "Cloudflare Worker that takes a standard unicode emoji and returns it as an SVG for use as favicons or CSS cursors",
+  "homepage": "https://github.com/mikesprague/emojicon#readme",
+  "bugs": {
+    "url": "https://github.com/mikesprague/emojicon/issues"
+  },
+  "license": "MIT",
   "author": {
     "name": "Michael Sprague",
     "email": "mikesprague@gmail.com"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mikesprague/emojicon/issues"
-  },
-  "homepage": "https://github.com/mikesprague/emojicon#readme",
-  "engines": {
-    "node": ">= 24.x",
-    "npm": ">= 11.x"
-  },
-  "packageManager": "npm@11.16.0",
+  "type": "module",
+  "exports": "./src/index.js",
   "scripts": {
     "start": "npx wrangler dev",
     "deploy": "npx wrangler publish"
@@ -30,6 +25,7 @@
     "wrangler": "4.100.0"
   },
   "overrides": {
+    "esbuild": "^0.28.1",
     "undici": "^8.4.1"
   },
   "config": {
@@ -37,8 +33,19 @@
       "path": "./node_modules/cz-git"
     }
   },
+  "engines": {
+    "node": ">= 24.x",
+    "npm": ">= 11.x"
+  },
   "volta": {
     "node": "26.3.0",
-    "npm": "11.16.0"
+    "npm": "11.17.0"
+  },
+  "packageManager": "npm@11.17.0",
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "workerd@1.20260611.1": true,
+    "sharp@0.34.5": true,
+    "fsevents@2.3.3": true
   }
 }
