@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "arrowParens": "always",
+  "ignorePatterns": [
+    ".git/**",
+    ".github/**",
+    ".history/**",
+    ".vscode/**",
+    "demo/**",
+    "node_modules/**"
+  ],
+  "jsxSingleQuote": true,
+  "printWidth": 80,
+  "quoteProps": "preserve",
+  "semi": true,
+  "singleQuote": true,
+  "sortImports": true,
+  "sortPackageJson": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false
+}

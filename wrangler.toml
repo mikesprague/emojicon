@@ -1,9 +1,30 @@
 name = "emojicon"
+
 main = "src/index.js"
-compatibility_date = "2023-09-04"
-compatibility_flags = [ "nodejs_compat" ]
-usage_model = "bundled"
-env = { }
+
+compatibility_date = "2026-07-06"
+
+compatibility_flags = ["nodejs_compat_v2"]
+
+env = {}
+
+[cache]
+enabled = true
 
 [triggers]
-crons = [ ]
+crons = []
+
+[observability]
+enabled = false
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[observability.traces]
+enabled = true
+persist = true
+head_sampling_rate = 1
