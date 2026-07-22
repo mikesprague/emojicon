@@ -21,7 +21,7 @@
   "devDependencies": {
     "cross-env": "10.1.0",
     "cz-git": "1.13.1",
-    "oxfmt": "0.59.0",
+    "oxfmt": "0.60.0",
     "oxlint": "1.74.0",
     "wrangler": "4.112.0"
   },
