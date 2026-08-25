@@ -19,7 +19,7 @@
     "deploy": "npx wrangler publish"
   },
   "devDependencies": {
-    "cz-git": "1.13.2",
+    "cz-git": "1.14.0",
     "oxfmt": "0.64.0",
     "oxlint": "1.79.0",
     "wrangler": "4.125.0"
