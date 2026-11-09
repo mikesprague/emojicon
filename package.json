@@ -22,7 +22,7 @@
     "cz-git": "1.14.0",
     "oxfmt": "0.76.0",
     "oxlint": "1.91.0",
-    "wrangler": "4.157.0"
+    "wrangler": "4.158.0"
   },
   "overrides": {},
   "config": {
