@@ -21,7 +21,7 @@
   "devDependencies": {
     "cz-git": "1.14.0",
     "oxfmt": "0.80.0",
-    "oxlint": "1.94.0",
+    "oxlint": "1.95.0",
     "wrangler": "4.168.0"
   },
   "overrides": {},
